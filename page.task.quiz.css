@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-family: Cambria, Georgia, serif;
+    position: relative;
+}
+
+header .fa-solid {
+    float: left;
+    background-color: whitesmoke;
+    padding-left: 10px;
+}
+
+main {
+    padding: 10px;
+}
+
+.box {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    margin: 10px 1%;
+    border-radius: 10px;
+}
+
+.box img {
+    width: 150px;
+    height: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box img:hover {
+    transition: weight 2;
+}
+
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+footer {
+    background-color: white;
+    color: gray;
+    text-align: left;
+    padding: 10px;
+    font-size: 10px;
+}
+
+@media (max-width: 800px) {
+    .box {
+        width: 48%;
+        margin: 10px 1%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .box {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
