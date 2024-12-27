@@ -1,0 +1,51 @@
+.container {
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 1px;
+    grid-template-areas: "a a a a a a b b"
+                         "a a a a a a b b"
+                         "a a a a a a b b"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e f f"
+                         "c c d d d e h h"
+                         "c c d d d e h h"
+                         "c c d d d e h h"
+                         "c c d d d e h h"
+                         "z z z z g g g g"
+                         "z z z z g g g g"
+                         "z z z z g g g g"
+                         "k k k k g g g g"
+                         "k k k k g g g g"
+                         "x y y y y y y j"
+                         "x y y y y y y j";
+        justify-content: center ;       
+}
+
+
+.container * {
+        border: 1px dashed green;
+        background-color: darkblue;
+        color: white;
+    
+}
+
+
+.block-1{grid-area: a;}
+.block-2{grid-area: b;}
+.block-3{grid-area: c;}
+.block-4{grid-area: d;}
+.block-5{grid-area: e;}
+.block-6{grid-area: f;}
+.block-7{grid-area: h;}
+.block-8{grid-area: g;}
+.block-9{grid-area: x;}
+.block-10{grid-area: y;}
+.block-11{grid-area: z;}
+.block-12{grid-area: j;}
+.block-13{grid-area: k;}
