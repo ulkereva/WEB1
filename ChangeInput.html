@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title</title>
+</head>
+<body>
+  <input type="text" id="firstInput" placeholder="Enter first value">
+  <input type="text" id="secondInput" placeholder="Enter second value">
+  <button onclick="changeValues()">change</button>
+
+  <script>
+    function changeValues() {
+       let firstInput = document.getElementById('firstInput');
+       let secondInput = document.getElementById('secondInput');
+
+       let first = firstInput.value;
+       let second = secondInput.value;
+    
+      firstInput.value = secondInput.value;
+      secondInput.value = first;
+    }
+  </script>
+</body>
+</html>
